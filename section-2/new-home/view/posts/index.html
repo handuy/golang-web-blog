@@ -64,30 +64,6 @@
 
       </div>
     </header>
-    
-    
-    <!-- <div class="site-section bg-light">
-      <div class="container">
-        <div class="row align-items-stretch retro-layout-2">
-          {{range .firstPostList}}
-          <div class="col-md-4">
-            <a href="single.html" class="h-entry img-5 h-100 gradient" style="background-image: url('{{.Image}}');">
-              
-              <div class="text">
-                <div class="post-categories mb-3">
-                  {{range .Category}}
-                  <span class="post-category bg-primary">{{.}}</span>
-                  {{end}}
-                </div>
-                <h2>{{.Title}}</h2>
-                <span class="date">{{.PublishedDate}}</span>
-              </div>
-            </a>
-          </div>
-          {{end}}
-        </div>
-      </div>
-    </div> -->
 
     <div class="site-section">
       <div class="container">
@@ -97,7 +73,7 @@
           </div>
         </div>
         <div class="row">
-          {{range .secondPostList}}
+          {{range .postList}}
           <div class="col-lg-4 mb-4">
             <div class="entry2">
               <a href="single.html"><img src="{{.Image}}" alt="Image" class="img-fluid rounded"></a>
@@ -137,7 +113,7 @@
       </div>
     </div>
 
-    <!-- <div class="site-section bg-light">
+    
       <div class="container">
 
         <div class="row align-items-stretch retro-layout">
